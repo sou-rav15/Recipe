@@ -1,0 +1,64 @@
+/* SubmitRecipe.css */
+.submit-recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #f7f7f7; */
+    background-color: rgb(255, 248, 225) ;
+}
+
+.submit-recipe-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.submit-recipe-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.submit-recipe-form .form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.submit-recipe-form .form-control,
+.submit-recipe-form .form-control-file {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-recipe-form .form-control::placeholder {
+    color: #aaa;
+}
+
+.submit-recipe-form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-recipe-form .btn:hover {
+    background-color: #e55b4d;
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+@media (min-width:500px) {
+    
+}

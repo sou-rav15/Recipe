@@ -1,0 +1,16 @@
+
+/* Hero section */
+.hero-section {
+    background-size: cover; /* Ensure the background image covers the section */
+    background-position: center;
+}
+
+/* Make sure containers and cards are responsive */
+@media (max-width: 480px) {
+    
+    .hero-section {
+        padding: 50px 0; /* Adjust padding for smaller screens */
+    }
+
+
+}

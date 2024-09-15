@@ -1,0 +1,110 @@
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Start slightly above center */
+    min-height: 100vh;
+    padding-top: 50px; /* Adjust this to move it more above the center */
+    background-color: rgb(255, 248, 225) ;
+  }
+  
+  .signup-container {
+    /* background-color: #fff; */
+    background-color: rgb(255, 248, 225) ;
+    padding: 2rem;
+    border-radius: 15px;
+    /* box-shadow: 0 4px 10px rgba(4, 4, 4, 0.1); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .signup-container h1 {
+    color: #e85d04;
+    font-family: "Cursive", sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container p {
+    color: #6c757d;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .signup-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .signup-btn {
+    background-color: #e85d04;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .google-signup {
+    background-color: #ff9f1c;
+    color: white;
+  }
+  
+  .signup-btn:hover {
+    background-color: #d97706;
+  }
+  
+  .terms-container {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .terms-container input {
+    margin-right: 10px;
+  }
+  
+  .terms-link {
+    color: #e85d04;
+    font-weight: bold;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .divider hr {
+    flex: 1;
+  }
+  
+  .divider p {
+    margin: 0 10px;
+    color: #6c757d;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .signup-container {
+      padding: 1.5rem;
+      max-width: 90%;
+    }
+  }
+  

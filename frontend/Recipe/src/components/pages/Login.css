@@ -1,0 +1,109 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #f8f9fa; */
+    background-color: rgb(255, 248, 225) ;
+     /* Light background */
+  }
+  
+  .login-container {
+    /* background-color: #fff; */
+    padding: 2rem;
+    /* border-radius: 15px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-card {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    background-color: #e85d04;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .google-login-btn {
+    background-color: #ff9f1c;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-link {
+    color: #ff9f1c;
+    font-weight: bold;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  
+  .divider hr {
+    width: 30%;
+    border: 1px solid #ddd;
+  }
+  
+  .divider p {
+    margin: 0 10px;
+    color: #888;
+
+
+  }
+  
+
+  /* Add these styles to your existing CSS file */
+
+/* Container for the error message */
+.error-container {
+    position: fixed;
+    bottom: -100px; /* Start below the viewport */
+    left: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: bottom 0.5s ease-in-out; /* Animation for sliding up */
+    z-index: 1000; /* Ensure it's on top */
+  }
+  
+  /* Class to show the error message */
+  .error-show {
+    bottom: 20px; /* Final position */
+  }
+  
+  /* Optional: Style for the error message text */
+  .error-text {
+    color: red;
+    margin: 0;
+  }
+  

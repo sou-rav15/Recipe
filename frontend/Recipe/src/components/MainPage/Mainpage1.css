@@ -1,0 +1,232 @@
+/* Mainpage1.css */
+
+/* General Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ff9f1c;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+  }
+  
+  .navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-left button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff9f1c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+  }
+  .navbar-profile{
+    margin-right: 10px;
+    
+  }
+  .profile-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .dropdown-menu ul{
+    list-style: none;
+    
+  }
+  .dropdown-menu ul li{
+    padding: 2px;
+  }
+  .dropdown-menu ul li button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-weight: 600;
+  }
+  .profile-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+  }
+  
+  .sidebar-left {
+    width: 200px;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  .sidebar-left ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .sidbar-left ul li:hover{
+    color:#393838
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  .recipe-card {
+    border: 1px solid #ddd;
+    width: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-header, .recipe-body, .recipe-footer {
+    padding: 10px;
+  }
+  
+  .recipe-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    /* background-color: #f17713; */
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .button .icon {
+    margin-right: 5px;
+  }
+  
+  /* Responsive Styles */
+  @media  (max-width: 766px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 107%;
+    }
+  
+    .navbar-left {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-right {
+      margin-top: 10px;
+    }
+  
+    .navbar-search {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  .navbar-search input{
+    width: 60%;
+  }
+    .sidebar-left {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .recipe-card {
+      border: 1px solid #ddd;
+      width: 400px;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+      flex-direction: column;
+    }
+  }
+  @media (max-width:480px) {
+    .navbar-search{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* text-align: center; */
+    }
+  }
+  @media (max-width: 380px) {
+    .navbar{
+      width: 120%;
+    }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    .navbar-search input {
+      width: 90%;
+     /* margin-left: 20px; */
+    }
+  
+    .navbar-left button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .profile-avatar {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .recipe-card {
+      margin: 10px 10px;
+      width: 350px;
+    }
+  }
+  
